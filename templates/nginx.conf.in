@@ -66,13 +66,13 @@ http {
         }
 
         # Another styled location.
-        location /styled/ploneorg {
-            alias ${root}/ploneorg;
-            xslt_stylesheet ${ploneorg.xsl}
-                path='$uri'
-                ;
-            xslt_html_parser on;
-            xslt_types text/html;
-        }
+        #location /styled/ploneorg {
+        #    alias ${root}/ploneorg;
+        #    xslt_stylesheet ${ploneorg.xsl}
+        #        path='$uri'
+        #        ;
+        #    xslt_html_parser on;
+        #    xslt_types text/html;
+        #}
     }
 }
