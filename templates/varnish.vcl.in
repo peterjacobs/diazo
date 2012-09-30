@@ -8,7 +8,7 @@ sub vcl_recv {
 }
 
 sub vcl_fetch {
-    if (obj.http.Content-Type == "text/html; charset=utf-8") {
+    if (beresp.http.Content-Type == "text/html; charset=utf-8") {
         esi;
     }
 }

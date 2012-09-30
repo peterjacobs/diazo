@@ -296,7 +296,7 @@ Varnish
 To enable ESI in Varnish simply add the following to your VCL file::
 
     sub vcl_fetch {
-        if (obj.http.Content-Type ~ "text/html") {
+        if (beresp.http.Content-Type ~ "text/html") {
             esi;
         }
     }
