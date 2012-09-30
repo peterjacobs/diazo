@@ -6,7 +6,10 @@ Changelog
 
 * Don't close the response unless Diazo is transforming it. [mitchellrj]
 * fix error caused by empty style tag e.g. <style/> [djay]
-
+* make the varnish buildout run on ubuntu by fixing nginx and varnish config
+  [peterjacobs]
+* disable ploneorg example because nginx breaks otherwise (missing files)
+  [peterjacobs]
 
 1.0.2 (2012-08-30)
 ------------------
