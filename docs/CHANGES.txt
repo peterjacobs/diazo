@@ -10,6 +10,10 @@ Changelog
   [peterjacobs]
 * disable ploneorg example because nginx breaks otherwise (missing files)
   [peterjacobs]
+* update nginx to recent version using work by Laurence Rowe:
+  http://mailman.nginx.org/pipermail/nginx-devel/2012-March/001967.html
+  [peterjacobs]
+
 
 1.0.2 (2012-08-30)
 ------------------
